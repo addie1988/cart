@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>購物車</title>
+    <!-- style_css -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <div class="header">
+        <h1>線上購物管理系統</h1>
+        <div class="shopping_Items">
+            <span>購物車</span>
+            <span id="shopping_Items_id">0</span>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="main_content">
+            <h2>商品列表</h2>
+            <div class="commodity" data-id="1" data-img="./images/img_1.webp" data-name="GUCCI 古馳 Horsebit 1955 Mini" data-price="81,810">
+                <h3>GUCCI 古馳 Horsebit 1955 Mini</h3>
+                <img src="./images/img_1.webp" alt="GUCCI">
+                <p>價格： ＄81,810</p>
+                <button class="add_to_cart">加入購物車</button>
+            </div>
+
+            <div class="commodity" data-id="2" data-img="./images/img_2.webp" data-name="GUCCI 古馳 GG matelasse" data-price="44,322">
+                <h3>GUCCI 古馳 GG matelasse</h3>
+                <img src="./images/img_2.webp" alt="GUCCI">
+                <p>價格： ＄44,322</p>
+                <button class="add_to_cart">加入購物車</button>
+            </div>
+
+            <div class="commodity" data-id="3" data-img="./images/img_3.webp" data-name="GUCCI 古馳 經典1955 Horsebit" data-price="97,722">
+                <h3>GUCCI 古馳 經典1955 Horsebit</h3>
+                <img src="./images/img_3.webp" alt="GUCCI">
+                <p>價格： ＄97,722</p>
+                <button class="add_to_cart">加入購物車</button>
+            </div>
+        </div>
+
+        <div class="checkou">
+            <h2>購物車</h2>
+            <ul id="checkou_list"></ul>
+            <p>總金額： ＄<span id="checkout_total">0</span></p>
+            <button id="confirm_checkout">結帳</button>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- style_js -->
+    <script src="./js/style.js"></script>
+
+</body>
+
+</html>

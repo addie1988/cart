@@ -1,0 +1,73 @@
+h2, h3 
+    color: #fff
+    font-size: 40px
+
+body
+    font-family: Arial, sans-serif
+    margin: 0
+    padding: 0
+    background: linear-gradient(156deg,#e36060, #c04141)
+    .header
+        background-color: #333
+        color: white
+        padding: 10px
+        display: flex
+        justify-content: space-between
+        align-items: center
+        h1
+            margin: 0
+        .shopping_Items
+            background-color: #555
+            padding: 5px 10px
+            border-radius: 5px
+    .main
+        padding: 20px
+        display: flex
+        justify-content: space-between
+        .main_content, .checkou
+            width: 45%
+            h2
+            .commodity
+                background-color: #fff
+                padding: 20px
+                margin-bottom: 20px
+                border-radius: 20px
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1)
+                h3
+                img
+                    width: 60%
+            .add_to_cart
+                background-color: #28a745
+                color: white
+                padding: 10px
+                border: none
+                border-radius: 5px
+                cursor: pointer
+                &:hover
+                    background-color: #218838
+        .checkou
+            h2
+            #checkou_list
+                padding: 0
+                li
+                    list-style: none
+                    display: flex
+                    align-items: center
+                    margin-bottom: 20px
+                    img
+                        margin-right: 20px
+            p
+            #confirm_checkout
+                padding: 10px 60px      
+                border-radius: 6px
+                border: 0          
+        .cart-details
+            background-color: #fff
+            padding: 20px
+            border-radius: 5px
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1)
+            #cart-items
+                list-style: none
+                padding: 0
+                li
+                    margin-bottom: 10px
